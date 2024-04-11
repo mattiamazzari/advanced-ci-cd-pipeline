@@ -1,3 +1,3 @@
 #!/bin/bash
-apt install -y httpd
+yum install -y httpd
 
