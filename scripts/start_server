@@ -1,4 +1,5 @@
 #!/bin/bash
-sudo systemctl start httpd
-sudo systemctl enable httpd
-
+# Start nginx
+sudo systemctl start nginx
+# Enable nginx
+sudo systemctl enable nginx

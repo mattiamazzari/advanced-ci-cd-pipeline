@@ -1,6 +1,6 @@
 #!/bin/bash
-isExistApp = `pgrep httpd`
+isExistApp = `pgrep nginx`
 if [[ -n  $isExistApp ]]; then
-    sudo systemctl stop httpd
+    sudo systemctl stop nginx
 fi
 
